@@ -1,0 +1,13 @@
+{
+  "POST /api/v1/ai/usage/reset": { "params": { "user_id": 1 } },
+  "PUT /api/v1/content/lessons-json": { "params": { "payload": "[]" } },
+  "POST /api/v1/homework/": { "json": { "title": "Smoke Homework" } },
+  "POST /api/v1/homework/assign/{homework_id}": { "params": { "user_id": 1 } },
+  "POST /api/v1/homework/grade/{user_homework_id}": { "json": { "grade": 90, "feedback": "Good job" } },
+  "POST /api/v1/homework/submit/{homework_id}": { "json": { "text_answer": "test answer" } },
+  "POST /api/v1/homework/{homework_id}/submit": { "json": { "text_answer": "test answer" } },
+  "POST /api/v1/pronunciation/sessions/": { "json": { "level": "beginner" } },
+  "POST /api/v1/lesson-interactions/{session_id}/interact": { "json": { "user_input": "hello", "ai_response": "hello!" } },
+  "POST /api/v1/content/lessons": { "json": { "title": "Sample lesson" } },
+  "POST /api/v1/content/lessons/bulk-import": { "json": { "lessons": [ { "title": "L1" } ] } }
+}

@@ -1,0 +1,71 @@
+{
+  "POST /api/v1/login/access-token": {
+    "data": {
+      "username": "admin@example.com",
+      "password": "changethis"
+    }
+  },
+
+  "POST /api/v1/ai/ask": {
+    "json": {
+      "prompt": "Hello"
+    }
+  },
+
+  "POST /api/v1/ai/analyze-answer": {
+    "json": {
+      "user_response": "This is my answer",
+      "reference_text": "This is a reference",
+      "language": "uz"
+    }
+  },
+
+  "POST /api/v1/courses/": {
+    "json": {
+      "title": "Smoke Course",
+      "description": "Created by smoke test",
+      "difficulty_level": "beginner",
+      "short_description": "short",
+      "language": "en"
+    }
+  },
+
+  "PUT /api/v1/courses/{id}": {
+    "json": {
+      "title": "Smoke Course Updated",
+      "difficulty_level": "beginner"
+    }
+  },
+
+  "POST /api/v1/forum/categories/": {
+    "json": {
+      "name": "smoke-category"
+    }
+  },
+
+  "PATCH /api/v1/profile/me": {
+    "json": {
+      "full_name": "Smoke Tester",
+      "username": "smoketester"
+    }
+  },
+
+  "POST /api/v1/feedback/": {
+    "json": {
+      "content": "Great app!",
+      "rating": 5
+    }
+  },
+
+  "POST /api/v1/webrtc/rooms/create": {
+    "json": {
+      "room_name": "smoke-room"
+    }
+  },
+
+  "POST /api/v1/ai/usage/reset": {
+    "params": {
+      "user_id": 1
+    }
+  }
+}

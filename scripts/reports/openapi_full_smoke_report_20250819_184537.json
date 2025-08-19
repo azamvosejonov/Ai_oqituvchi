@@ -1,0 +1,32 @@
+[
+  {
+    "method": "PUT",
+    "path": "/api/v1/words/2",
+    "url": "http://0.0.0.0:8004/api/v1/words/2",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/words/2",
+    "url": "http://0.0.0.0:8004/api/v1/words/2",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/words/2",
+    "url": "http://0.0.0.0:8004/api/v1/words/2",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  }
+]

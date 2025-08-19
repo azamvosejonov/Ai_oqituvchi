@@ -1,0 +1,12 @@
+[
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/",
+    "url": "http://0.0.0.0:8004/api/v1/homework/",
+    "status": "FAILED",
+    "http_status": 500,
+    "reason": "",
+    "duration_ms": null,
+    "error": "Internal Server Error"
+  }
+]

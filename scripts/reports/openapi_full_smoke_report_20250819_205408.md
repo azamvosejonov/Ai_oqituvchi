@@ -1,0 +1,66 @@
+# OpenAPI Full Smoke Report (20250819_205408)
+
+- PASSED: 12
+- FAILED: 24
+- SKIPPED: 23
+
+## Tafsilotlar
+- PUT /api/v1/admin/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/ai/usage/reset -> PASSED (200) 
+- POST /api/v1/content/lessons -> PASSED (201) 
+- PUT /api/v1/content/lessons-json -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/content/lessons/bulk-import -> PASSED (200) 
+- GET /api/v1/content/lessons/export -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/exercises/recommendations -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/homework/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/homework/assign/{homework_id} -> FAILED (404) 
+- POST /api/v1/homework/grade/{user_homework_id} -> FAILED (404) 
+- POST /api/v1/homework/submit/{homework_id} -> PASSED (200) 
+- POST /api/v1/homework/{homework_id}/submit -> PASSED (200) 
+- POST /api/v1/lesson-interactions/{session_id}/interact -> FAILED (500) 
+- POST /api/v1/profile/change-password -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/pronunciation/sessions/ -> PASSED (200) 
+- POST /api/v1/tests/attempts/{attempt_id}/finish -> FAILED (404) 
+- POST /api/v1/tests/attempts/{attempt_id}/submit -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/users/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/users/courses/{course_id}/complete -> FAILED (404) 
+- GET /api/v1/courses/{id} -> PASSED (200) 
+- DELETE /api/v1/courses/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PUT /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/lessons/{id} -> PASSED (200) 
+- DELETE /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PUT /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/words/{id} -> FAILED (404) 
+- DELETE /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/user-progress/lessons/{lesson_id}/complete -> FAILED (404) 
+- POST /api/v1/user-progress/lessons/{lesson_id}/start -> FAILED (404) 
+- GET /api/v1/forum/categories/{category_id}/topics -> FAILED (404) 
+- GET /api/v1/forum/topics/{topic_id} -> FAILED (404) 
+- PUT /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PUT /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/ai-sessions/sessions/{session_id} -> FAILED (404) 
+- PATCH /api/v1/ai-sessions/sessions/{session_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/ai-sessions/sessions/{session_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/ai-sessions/sessions/{session_id}/reset -> FAILED (404) 
+- POST /api/v1/ai-sessions/sessions/{session_id}/messages -> FAILED (404) 
+- GET /api/v1/ai-sessions/sessions/{session_id}/messages -> FAILED (404) 
+- GET /api/v1/pronunciation/phrases/{phrase_id} -> FAILED (404) 
+- PUT /api/v1/pronunciation/phrases/{phrase_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/pronunciation/phrases/{phrase_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/pronunciation/sessions/{session_id} -> PASSED (200) 
+- PATCH /api/v1/pronunciation/sessions/{session_id}/complete -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/interactive-lessons/{lesson_id} -> PASSED (200) 
+- GET /api/v1/homework/{homework_id} -> FAILED (404) 
+- GET /api/v1/homework/files/{file_id}/download -> FAILED (404) 
+- POST /api/v1/homework/{homework_id}/assign -> FAILED (404) 
+- POST /api/v1/homework/submissions/{submission_id}/grade -> PASSED (200) 
+- POST /api/v1/homework/grade/{submission_id} -> PASSED (200) 
+- POST /api/v1/webrtc/rooms/{room_id}/end -> FAILED (404) 
+- GET /api/v1/recommendations/adaptive-lesson-plan/{lesson_id} -> FAILED (404) 
+- GET /api/v1/exercises/{exercise_id} -> FAILED (404) 
+- POST /api/v1/exercises/{exercise_id}/check-answer -> FAILED (404) 
+- GET /api/v1/exercises/attempts/{attempt_id} -> FAILED (404) 
+- POST /api/v1/exercises/attempts/{attempt_id}/analyze -> FAILED (404) 

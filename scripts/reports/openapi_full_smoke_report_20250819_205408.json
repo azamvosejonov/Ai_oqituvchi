@@ -1,0 +1,592 @@
+[
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/usage/reset",
+    "url": "http://0.0.0.0:8004/api/v1/ai/usage/reset",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/content/lessons",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons",
+    "status": "PASSED",
+    "http_status": 201,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/content/lessons-json",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons-json",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/content/lessons/bulk-import",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/bulk-import",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/content/lessons/export",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/export",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/recommendations",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/recommendations",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/",
+    "url": "http://0.0.0.0:8004/api/v1/homework/",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/assign/{homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/assign/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Homework not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/grade/{user_homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/grade/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Submission not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/submit/{homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/submit/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/submit",
+    "url": "http://0.0.0.0:8004/api/v1/homework/1/submit",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/lesson-interactions/{session_id}/interact",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-interactions/1/interact",
+    "status": "FAILED",
+    "http_status": 500,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Error getting AI response: 'InteractiveLessonService' object has no attribute 'get_ai_response'\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/profile/change-password",
+    "url": "http://0.0.0.0:8004/api/v1/profile/change-password",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/pronunciation/sessions/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/sessions/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/attempts/{attempt_id}/finish",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/1/finish",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Attempt not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/attempts/{attempt_id}/submit",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/1/submit",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/users/",
+    "url": "http://0.0.0.0:8004/api/v1/users/",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/users/courses/{course_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/users/courses/1/complete",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Course not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/5",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/3",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Word not found\"}"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/user-progress/lessons/{lesson_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/lessons/1/complete",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Lesson not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/user-progress/lessons/{lesson_id}/start",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/lessons/1/start",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Lesson not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/categories/{category_id}/topics",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/1/topics",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Category not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Topic not found\"}"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/{topic_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/{topic_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/posts/{post_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/{post_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/posts/{post_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/{post_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Session not found\"}"
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/{session_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/{session_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}/reset",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/1/reset",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Session not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}/messages",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/1/messages",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Session not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}/messages",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/1/messages",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Session not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/phrases/{phrase_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Pronunciation phrase not found\"}"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/pronunciation/phrases/{phrase_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/{phrase_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/pronunciation/phrases/{phrase_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/{phrase_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/sessions/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/pronunciation/sessions/{session_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/sessions/{session_id}/complete",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/interactive-lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/3",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/{homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Homework not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/files/{file_id}/download",
+    "url": "http://0.0.0.0:8004/api/v1/homework/files/1/download",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"File not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/assign",
+    "url": "http://0.0.0.0:8004/api/v1/homework/1/assign",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Homework not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/submissions/{submission_id}/grade",
+    "url": "http://0.0.0.0:8004/api/v1/homework/submissions/1/grade",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/grade/{submission_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/grade/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/webrtc/rooms/{room_id}/end",
+    "url": "http://0.0.0.0:8004/api/v1/webrtc/rooms/1/end",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Room not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/recommendations/adaptive-lesson-plan/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/recommendations/adaptive-lesson-plan/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Dars topilmadi\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/{exercise_id}",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Mashq topilmadi\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/exercises/{exercise_id}/check-answer",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/1/check-answer",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Exercise with ID 1 not found or inactive\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/attempts/{attempt_id}",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/attempts/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Ushbu urinish topilmadi\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/exercises/attempts/{attempt_id}/analyze",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/attempts/1/analyze",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Attempt not found\"}"
+  }
+]

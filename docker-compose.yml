@@ -1,0 +1,46 @@
+services:
+  db:
+    image: postgres:13
+    container_name: oquv_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=oquv_db
+    restart: unless-stopped
+
+  redis:
+    image: redis:6.2-alpine
+    container_name: oquv_redis
+    restart: unless-stopped
+
+  api:
+    build: .
+    container_name: oquv_api
+    command: uvicorn main:app --host 0.0.0.0 --port 8002 --reload
+    volumes:
+      - .:/app
+    ports:
+      - "8002:8002"
+    env_file:
+      - .env
+    depends_on:
+      - db
+      - redis
+    restart: on-failure
+
+  worker:
+    build: .
+    container_name: oquv_worker
+    command: celery -A app.core.celery_app worker --loglevel=info
+    volumes:
+      - .:/app
+    env_file:
+      - .env
+    depends_on:
+      - redis
+    restart: on-failure
+
+volumes:
+  postgres_data:

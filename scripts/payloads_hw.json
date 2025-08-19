@@ -1,0 +1,10 @@
+{
+  "POST /api/v1/homework/": {
+    "json": {
+      "title": "Auto HW via smoke",
+      "description": "Auto-created for smoke test",
+      "instructions": "Please do this task.",
+      "lesson_id": 3
+    }
+  }
+}

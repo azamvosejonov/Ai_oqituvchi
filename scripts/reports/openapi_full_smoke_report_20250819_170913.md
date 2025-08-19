@@ -1,0 +1,377 @@
+# OpenAPI Full Smoke Report (20250819_170913)
+
+- PASSED: 172
+- FAILED: 94
+- SKIPPED: 104
+
+## Tafsilotlar
+- GET /api/v1/admin/courses/ -> PASSED (200) 
+- POST /api/v1/admin/courses/ -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["body","instructor_id"],"msg":"Field required","input":{"title":"string","difficulty_level":"string"}}]}
+- PUT /api/v1/admin/courses/{course_id} -> PASSED (200) 
+- DELETE /api/v1/admin/courses/{course_id} -> FAILED (500) - HTTP 500: Internal Server Error
+- GET /api/v1/admin/interactive-lessons/ -> PASSED (200) 
+- POST /api/v1/admin/interactive-lessons/ -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["body","content"],"msg":"Field required","input":{"title":"string","order":1,"avatar_id":1}}]}
+- PUT /api/v1/admin/interactive-lessons/{lesson_id} -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["body","content"],"msg":"Field required","input":{"title":"string","order":1}}]}
+- DELETE /api/v1/admin/interactive-lessons/{lesson_id} -> FAILED (500) - HTTP 500: Internal Server Error
+- GET /api/v1/admin/statistics -> PASSED (200) 
+- GET /api/v1/admin/subscription-plans/ -> PASSED (200) 
+- POST /api/v1/admin/subscription-plans/ -> FAILED (400) - HTTP 400: {"detail":"Subscription plan with this stripe_price_id already exists"}
+- PUT /api/v1/admin/subscription-plans/{plan_id} -> FAILED (500) - HTTP 500: Internal Server Error
+- DELETE /api/v1/admin/subscription-plans/{plan_id} -> PASSED (200) 
+- POST /api/v1/admin/tests/ -> PASSED (200) 
+- PUT /api/v1/admin/tests/questions/{question_id} -> PASSED (200) 
+- DELETE /api/v1/admin/tests/questions/{question_id} -> FAILED (500) - HTTP 500: Internal Server Error
+- PUT /api/v1/admin/tests/sections/{section_id} -> PASSED (200) 
+- DELETE /api/v1/admin/tests/sections/{section_id} -> FAILED (500) - HTTP 500: Internal Server Error
+- POST /api/v1/admin/tests/sections/{section_id}/questions/ -> PASSED (200) 
+- PUT /api/v1/admin/tests/{test_id} -> PASSED (200) 
+- POST /api/v1/admin/tests/{test_id}/sections/ -> PASSED (200) 
+- GET /api/v1/admin/users -> PASSED (200) 
+- POST /api/v1/admin/users -> FAILED (400) - HTTP 400: {"detail":"The user with this username already exists in the system."}
+- GET /api/v1/admin/users/{user_id} -> PASSED (200) 
+- PATCH /api/v1/admin/users/{user_id} -> PASSED (200) 
+- DELETE /api/v1/admin/users/{user_id} -> SKIPPED (403) - Auth kerak yoki ruxsat yo'q (403)
+- PATCH /api/v1/admin/users/{user_id}/profile -> FAILED (500) - HTTP 500: Internal Server Error
+- PATCH /api/v1/admin/users/{user_id}/role -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["body","role_id"],"msg":"Field required","input":{"role":"free"}}]}
+- POST /api/v1/ai/ask -> PASSED (200) 
+- POST /api/v1/ai/pronunciation -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/ai/stt -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/ai/suggest-lesson -> PASSED (200) 
+- POST /api/v1/ai/tts -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- GET /api/v1/avatars/ -> PASSED (200) 
+- GET /api/v1/avatars/{avatar_id} -> PASSED (200) 
+- POST /api/v1/certificates/ -> PASSED (201) 
+- GET /api/v1/certificates/my-certificates -> PASSED (200) 
+- GET /api/v1/certificates/user/{user_id} -> PASSED (200) 
+- GET /api/v1/certificates/{certificate_id}/download -> PASSED (200) 
+- GET /api/v1/certificates/{certificate_id}/verify/{verification_code} -> SKIPPED (403) - Auth kerak yoki ruxsat yo'q (403)
+- GET /api/v1/courses/ -> PASSED (200) 
+- POST /api/v1/courses/ -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["body","instructor_id"],"msg":"Field required","input":{"title":"string","difficulty_level":"string"}}]}
+- PUT /api/v1/courses/{id} -> PASSED (200) 
+- GET /api/v1/courses/{id} -> PASSED (200) 
+- DELETE /api/v1/courses/{id} -> FAILED (500) - HTTP 500: Internal Server Error
+- GET /api/v1/feedback/ -> PASSED (200) 
+- POST /api/v1/feedback/ -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["body","rating"],"msg":"Field required","input":{"content":"string"}}]}
+- DELETE /api/v1/feedback/{id} -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/forum/categories/ -> FAILED (400) - HTTP 400: {"detail":"A category with this name already exists."}
+- GET /api/v1/forum/categories/ -> PASSED (200) 
+- PUT /api/v1/forum/categories/{category_id} -> PASSED (200) 
+- DELETE /api/v1/forum/categories/{category_id} -> PASSED (200) 
+- GET /api/v1/forum/categories/{category_id}/topics -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/forum/posts/ -> SKIPPED (404) - Resurs topilmadi (404)
+- PUT /api/v1/forum/posts/{post_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- DELETE /api/v1/forum/posts/{post_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/forum/topics/ -> PASSED (200) 
+- POST /api/v1/forum/topics/ -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/forum/topics/{topic_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- PUT /api/v1/forum/topics/{topic_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- DELETE /api/v1/forum/topics/{topic_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/homework/ -> PASSED (200) 
+- POST /api/v1/homework/ -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- GET /api/v1/homework/files/{file_id}/download -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/homework/grade/{user_homework_id} -> FAILED (422) - HTTP 422: {"detail":[{"type":"dict_type","loc":["body"],"msg":"Input should be a valid dictionary","input":"feedback=string&score=1"}]}
+- GET /api/v1/homework/lesson/{lesson_id} -> PASSED (200) 
+- GET /api/v1/homework/user/me -> PASSED (200) 
+- GET /api/v1/homework/{homework_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/homework/{homework_id}/assign/{user_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/homework/{homework_id}/submit -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/homework/{homework_id}/submit-oral -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- GET /api/v1/interactive-lessons/ -> PASSED (200) 
+- POST /api/v1/interactive-lessons/assess-pronunciation -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/interactive-lessons/send-audio-message -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/interactive-lessons/send-message -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/interactive-lessons/start-lesson -> FAILED (500) - HTTP 500: {"detail":"Darsni boshlashda xatolik yuz berdi: 'lesson_type' is an invalid keyword argument for LessonSession"}
+- GET /api/v1/interactive-lessons/{lesson_id} -> PASSED (200) 
+- POST /api/v1/lesson-interactions/{session_id}/interact -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- GET /api/v1/lesson-interactions/{session_id}/interactions -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/lessons/ -> PASSED (200) 
+- POST /api/v1/lessons/ -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["body","avatar_id"],"msg":"Field required","input":{"title":"string","content":"string","course_id":1,"order":1}}]}
+- PUT /api/v1/lessons/{id} -> PASSED (200) 
+- GET /api/v1/lessons/{id} -> PASSED (200) 
+- DELETE /api/v1/lessons/{id} -> FAILED (500) - HTTP 500: Internal Server Error
+- POST /api/v1/login -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/login/test-token -> PASSED (200) 
+- GET /api/v1/metrics -> PASSED (200) 
+- GET /api/v1/metrics/health -> PASSED (200) 
+- GET /api/v1/metrics/status -> PASSED (200) 
+- GET /api/v1/notifications/ -> PASSED (200) 
+- POST /api/v1/notifications/read-all -> PASSED (200) 
+- GET /api/v1/notifications/unread-count -> PASSED (200) 
+- POST /api/v1/notifications/{notification_id}/read -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/payments/ -> PASSED (200) 
+- POST /api/v1/payments/create-checkout-session -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- POST /api/v1/payments/webhook/stripe -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- GET /api/v1/statistics/ -> PASSED (200) 
+- GET /api/v1/statistics/payment-stats -> PASSED (200) 
+- GET /api/v1/statistics/top-users -> PASSED (200) 
+- POST /api/v1/subscription-plans/ -> FAILED (400) - HTTP 400: {"detail":"The subscription plan with this name already exists in the system."}
+- GET /api/v1/subscription-plans/ -> PASSED (200) 
+- GET /api/v1/subscription-plans/{plan_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- PUT /api/v1/subscription-plans/{plan_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- DELETE /api/v1/subscription-plans/{plan_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/subscriptions/ -> PASSED (200) 
+- POST /api/v1/subscriptions/create-checkout-session -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- GET /api/v1/subscriptions/me -> PASSED (200) 
+- GET /api/v1/subscriptions/plans -> PASSED (200) 
+- POST /api/v1/subscriptions/stripe-webhook -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- POST /api/v1/subscriptions/users/{user_id}/subscriptions -> FAILED (422) - HTTP 422: {"detail":[{"type":"missing","loc":["query","plan_id"],"msg":"Field required","input":null}]}
+- GET /api/v1/subscriptions/users/{user_id}/subscriptions -> PASSED (200) 
+- DELETE /api/v1/subscriptions/{subscription_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/tests/ -> PASSED (200) 
+- GET /api/v1/tests/attempts/me -> PASSED (200) 
+- GET /api/v1/tests/attempts/{attempt_id} -> PASSED (200) 
+- POST /api/v1/tests/attempts/{attempt_id}/finish -> FAILED (400) - HTTP 400: {"detail":"This attempt has already been completed."}
+- POST /api/v1/tests/attempts/{attempt_id}/submit -> FAILED (400) - HTTP 400: {"detail":"This attempt has already been completed."}
+- GET /api/v1/tests/{test_id} -> PASSED (200) 
+- POST /api/v1/tests/{test_id}/start -> FAILED (400) - HTTP 400: {"detail":"You already have an in-progress attempt for this test."}
+- GET /api/v1/user-progress/ -> PASSED (200) 
+- POST /api/v1/user-progress/lessons/{lesson_id}/complete -> PASSED (200) 
+- GET /api/v1/users/ -> PASSED (200) 
+- POST /api/v1/users/ -> FAILED (400) - HTTP 400: {"detail":"The user with this email already exists in the system."}
+- GET /api/v1/users/certificates/ -> PASSED (200) 
+- GET /api/v1/users/certificates/{certificate_id} -> PASSED (200) 
+- POST /api/v1/users/courses/{course_id}/complete -> FAILED (400) - HTTP 400: {"detail":"You have not completed all lessons in this course yet."}
+- GET /api/v1/users/me -> PASSED (200) 
+- PATCH /api/v1/users/me -> FAILED (400) - HTTP 400: {"detail":"The user with this email already exists in the system."}
+- GET /api/v1/users/me/next-lesson -> PASSED (200) 
+- GET /api/v1/users/me/premium-data -> PASSED (200) 
+- GET /api/v1/users/test-superuser -> PASSED (200) 
+- GET /api/v1/users/{user_id} -> PASSED (200) 
+- PUT /api/v1/users/{user_id} -> FAILED (500) - HTTP 500: Internal Server Error
+- DELETE /api/v1/users/{user_id} -> FAILED (400) - HTTP 400: {"detail":"Superusers cannot delete themselves"}
+- POST /api/v1/webrtc/rooms/create -> PASSED (200) 
+- POST /api/v1/webrtc/rooms/{room_id}/end -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/webrtc/rooms/{room_id}/users -> PASSED (200) 
+- GET /api/v1/words/ -> PASSED (200) 
+- POST /api/v1/words/ -> PASSED (200) 
+- PUT /api/v1/words/{id} -> PASSED (200) 
+- GET /api/v1/words/{id} -> PASSED (200) 
+- DELETE /api/v1/words/{id} -> PASSED (200) 
+- GET /health -> PASSED (200) 
+- GET /version -> PASSED (200) 
+- POST /api/v1/login/access-token -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/login/test-token -> PASSED (200) 
+- POST /api/v1/logout -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- GET /api/v1/users/ -> PASSED (200) 
+- POST /api/v1/users/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/users/me -> PASSED (200) 
+- PATCH /api/v1/users/me -> PASSED (200) 
+- GET /api/v1/users/me/premium-data -> PASSED (200) 
+- GET /api/v1/users/me/next-lesson -> PASSED (200) 
+- GET /api/v1/users/test-superuser -> PASSED (200) 
+- GET /api/v1/users/{user_id} -> PASSED (200) 
+- PUT /api/v1/users/{user_id} -> PASSED (200) 
+- DELETE /api/v1/users/{user_id} -> SKIPPED (400) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/users/courses/{course_id}/complete -> SKIPPED (400) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/users/certificates/ -> PASSED (200) 
+- GET /api/v1/users/certificates/{certificate_id} -> PASSED (200) 
+- POST /api/v1/subscription-plans/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/subscription-plans/ -> PASSED (200) 
+- GET /api/v1/subscription-plans/{plan_id} -> FAILED (404) 
+- PUT /api/v1/subscription-plans/{plan_id} -> FAILED (404) 
+- DELETE /api/v1/subscription-plans/{plan_id} -> FAILED (404) 
+- GET /api/v1/courses/ -> FAILED (500) 
+- POST /api/v1/courses/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/courses/{id} -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/courses/{id} -> FAILED (500) 
+- DELETE /api/v1/courses/{id} -> FAILED (500) 
+- GET /api/v1/subscriptions/plans -> PASSED (200) 
+- POST /api/v1/subscriptions/stripe-webhook -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- GET /api/v1/subscriptions/status -> PASSED (200) 
+- POST /api/v1/subscriptions/create-checkout-session -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- GET /api/v1/subscriptions/ -> PASSED (200) 
+- POST /api/v1/subscriptions/users/{user_id}/subscriptions -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/subscriptions/users/{user_id}/subscriptions -> PASSED (200) 
+- GET /api/v1/subscriptions/me -> PASSED (200) 
+- DELETE /api/v1/subscriptions/{subscription_id} -> FAILED (404) 
+- GET /api/v1/subscriptions/admin/config-check -> PASSED (200) 
+- POST /api/v1/subscriptions/admin/approve/{user_id} -> SKIPPED (400) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/lessons/ -> PASSED (200) 
+- POST /api/v1/lessons/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/lessons/categories -> PASSED (200) 
+- GET /api/v1/lessons/videos -> PASSED (200) 
+- GET /api/v1/lessons/continue -> PASSED (200) 
+- PUT /api/v1/lessons/{id} -> PASSED (200) 
+- GET /api/v1/lessons/{id} -> PASSED (200) 
+- DELETE /api/v1/lessons/{id} -> FAILED (500) 
+- GET /api/v1/words/ -> PASSED (200) 
+- POST /api/v1/words/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/words/{id} -> FAILED (404) 
+- PATCH /api/v1/words/{id} -> FAILED (404) 
+- GET /api/v1/words/{id} -> FAILED (404) 
+- DELETE /api/v1/words/{id} -> FAILED (404) 
+- GET /api/v1/statistics/ -> PASSED (200) 
+- GET /api/v1/statistics/top-users -> PASSED (200) 
+- GET /api/v1/statistics/payment-stats -> PASSED (200) 
+- GET /api/v1/user-progress/ -> PASSED (200) 
+- POST /api/v1/user-progress/lessons/{lesson_id}/complete -> PASSED (200) 
+- GET /api/v1/user-progress/last -> PASSED (200) 
+- POST /api/v1/user-progress/lessons/{lesson_id}/start -> PASSED (200) 
+- POST /api/v1/certificates/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/certificates/user/{user_id} -> PASSED (200) 
+- GET /api/v1/certificates/my-certificates -> PASSED (200) 
+- GET /api/v1/certificates/{certificate_id}/download -> PASSED (200) 
+- GET /api/v1/certificates/{certificate_id}/verify/{verification_code} -> SKIPPED (403) - Auth talab qilinadi yoki ruxsat yo'q
+- GET /api/v1/feedback/ -> PASSED (200) 
+- POST /api/v1/feedback/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- DELETE /api/v1/feedback/{id} -> FAILED (404) 
+- POST /api/v1/forum/categories/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/forum/categories/ -> PASSED (200) 
+- PUT /api/v1/forum/categories/{category_id} -> FAILED (404) 
+- DELETE /api/v1/forum/categories/{category_id} -> FAILED (404) 
+- GET /api/v1/forum/topics/ -> PASSED (200) 
+- POST /api/v1/forum/topics/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/forum/categories/{category_id}/topics -> FAILED (404) 
+- GET /api/v1/forum/topics/{topic_id} -> FAILED (404) 
+- PUT /api/v1/forum/topics/{topic_id} -> FAILED (404) 
+- DELETE /api/v1/forum/topics/{topic_id} -> FAILED (404) 
+- POST /api/v1/forum/posts/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/forum/posts/{post_id} -> FAILED (404) 
+- DELETE /api/v1/forum/posts/{post_id} -> FAILED (404) 
+- GET /api/v1/ai/tts/voices -> SKIPPED (-) - Fayl/stream talab qiladi
+- GET /api/v1/ai/stt/languages -> SKIPPED (-) - Fayl/stream talab qiladi
+- POST /api/v1/ai/ask -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/ai/lessons/suggested -> PASSED (200) 
+- POST /api/v1/ai/tts -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/ai/analyze-answer -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/ai/stt -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/ai/pronunciation -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/ai/pronunciation/history -> PASSED (200) 
+- GET /api/v1/ai/pronunciation/summary -> PASSED (200) 
+- POST /api/v1/ai/voice-loop -> SKIPPED (-) - Fayl/stream talab qiladi — SKIPPED
+- POST /api/v1/ai/suggest-lesson -> PASSED (200) 
+- GET /api/v1/ai/usage -> PASSED (200) 
+- POST /api/v1/ai/usage/reset -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/ai-sessions/sessions -> PASSED (200) 
+- GET /api/v1/ai-sessions/sessions -> PASSED (200) 
+- GET /api/v1/ai-sessions/sessions/{session_id} -> FAILED (404) 
+- PATCH /api/v1/ai-sessions/sessions/{session_id} -> FAILED (404) 
+- DELETE /api/v1/ai-sessions/sessions/{session_id} -> FAILED (404) 
+- POST /api/v1/ai-sessions/sessions/{session_id}/reset -> FAILED (404) 
+- POST /api/v1/ai-sessions/sessions/{session_id}/messages -> FAILED (404) 
+- GET /api/v1/ai-sessions/sessions/{session_id}/messages -> FAILED (404) 
+- GET /api/v1/notifications/ -> PASSED (200) 
+- GET /api/v1/notifications/unread-count -> PASSED (200) 
+- POST /api/v1/notifications/{notification_id}/read -> FAILED (404) 
+- POST /api/v1/notifications/read-all -> PASSED (200) 
+- POST /api/v1/notifications/admin/send -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/tests/ielts -> PASSED (200) 
+- GET /api/v1/tests/toefl -> PASSED (200) 
+- GET /api/v1/tests/ -> PASSED (200) 
+- GET /api/v1/tests/{test_id} -> PASSED (200) 
+- POST /api/v1/tests/{test_id}/start -> SKIPPED (400) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/tests/attempts/me -> PASSED (200) 
+- GET /api/v1/tests/attempts/{attempt_id} -> PASSED (200) 
+- POST /api/v1/tests/attempts/{attempt_id}/submit -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/tests/attempts/{attempt_id}/finish -> SKIPPED (400) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/admin/tests/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/admin/tests/{test_id} -> PASSED (200) 
+- POST /api/v1/admin/tests/{test_id}/sections/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/admin/tests/sections/{section_id} -> PASSED (200) 
+- DELETE /api/v1/admin/tests/sections/{section_id} -> FAILED (500) 
+- POST /api/v1/admin/tests/sections/{section_id}/questions/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/admin/tests/questions/{question_id} -> PASSED (200) 
+- DELETE /api/v1/admin/tests/questions/{question_id} -> FAILED (500) 
+- GET /api/v1/admin/statistics -> PASSED (200) 
+- GET /api/v1/admin/users -> PASSED (200) 
+- POST /api/v1/admin/users -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/admin/users/{user_id} -> PASSED (200) 
+- PATCH /api/v1/admin/users/{user_id} -> PASSED (200) 
+- DELETE /api/v1/admin/users/{user_id} -> SKIPPED (403) - Auth talab qilinadi yoki ruxsat yo'q
+- PATCH /api/v1/admin/users/{user_id}/profile -> PASSED (200) 
+- PATCH /api/v1/admin/users/{user_id}/role -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/admin/subscription-plans/ -> PASSED (200) 
+- POST /api/v1/admin/subscription-plans/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/admin/subscription-plans/{plan_id} -> FAILED (404) 
+- DELETE /api/v1/admin/subscription-plans/{plan_id} -> FAILED (404) 
+- GET /api/v1/admin/courses/ -> FAILED (500) 
+- POST /api/v1/admin/courses/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/admin/courses/{course_id} -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- DELETE /api/v1/admin/courses/{course_id} -> FAILED (500) 
+- GET /api/v1/admin/interactive-lessons/ -> FAILED (500) 
+- POST /api/v1/admin/interactive-lessons/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- PUT /api/v1/admin/interactive-lessons/{lesson_id} -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- DELETE /api/v1/admin/interactive-lessons/{lesson_id} -> FAILED (500) 
+- GET /api/v1/content/lessons/validate -> PASSED (200) 
+- GET /api/v1/content/lessons-json -> PASSED (200) 
+- PUT /api/v1/content/lessons-json -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/content/lessons -> PASSED (200) 
+- POST /api/v1/content/lessons -> SKIPPED (400) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/content/lessons/{lesson_id} -> FAILED (404) 
+- PUT /api/v1/content/lessons/{lesson_id} -> FAILED (404) 
+- PATCH /api/v1/content/lessons/{lesson_id} -> FAILED (404) 
+- DELETE /api/v1/content/lessons/{lesson_id} -> FAILED (404) 
+- POST /api/v1/content/lessons/bulk-import -> SKIPPED (400) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/content/lessons/export -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/content/media -> PASSED (200) 
+- POST /api/v1/content/media/upload -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- DELETE /api/v1/content/media/{filename} -> FAILED (404) 
+- GET /api/v1/profile/me -> PASSED (200) 
+- PATCH /api/v1/profile/me -> PASSED (200) 
+- GET /api/v1/profile/stats -> PASSED (200) 
+- POST /api/v1/profile/change-password -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/profile/avatar -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/pronunciation/phrases/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/pronunciation/phrases/ -> PASSED (200) 
+- GET /api/v1/pronunciation/phrases/{phrase_id} -> FAILED (404) 
+- PUT /api/v1/pronunciation/phrases/{phrase_id} -> FAILED (404) 
+- DELETE /api/v1/pronunciation/phrases/{phrase_id} -> FAILED (404) 
+- POST /api/v1/pronunciation/sessions/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/pronunciation/sessions/ -> PASSED (200) 
+- GET /api/v1/pronunciation/sessions/{session_id} -> FAILED (404) 
+- PATCH /api/v1/pronunciation/sessions/{session_id}/complete -> FAILED (404) 
+- POST /api/v1/pronunciation/analyze/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/pronunciation/history/ -> PASSED (200) 
+- GET /api/v1/pronunciation/profile/ -> PASSED (200) 
+- GET /api/v1/interactive-lessons/ -> FAILED (500) 
+- GET /api/v1/interactive-lessons/{lesson_id} -> FAILED (500) 
+- POST /api/v1/interactive-lessons/start-lesson -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/interactive-lessons/send-message -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/interactive-lessons/send-audio-message -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/interactive-lessons/assess-pronunciation -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/lesson-interactions/{session_id}/interact -> FAILED (404) 
+- GET /api/v1/lesson-interactions/{session_id}/interactions -> FAILED (404) 
+- POST /api/v1/lesson-sessions/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/lesson-sessions/{session_id} -> FAILED (404) 
+- PUT /api/v1/lesson-sessions/{session_id} -> FAILED (404) 
+- GET /api/v1/lesson-sessions/user/me -> PASSED (200) 
+- POST /api/v1/lesson-sessions/{session_id}/complete -> FAILED (404) 
+- GET /api/v1/homework/ -> PASSED (200) 
+- POST /api/v1/homework/ -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/homework/{homework_id} -> FAILED (404) 
+- GET /api/v1/homework/lesson/{lesson_id} -> PASSED (200) 
+- GET /api/v1/homework/files/{file_id}/download -> FAILED (404) 
+- POST /api/v1/homework/{homework_id}/assign -> FAILED (404) 
+- POST /api/v1/homework/assign/{homework_id} -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/homework/user/me -> PASSED (200) 
+- POST /api/v1/homework/{homework_id}/submit -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/homework/submit/{homework_id} -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/homework/submissions/{submission_id}/grade -> FAILED (404) 
+- POST /api/v1/homework/grade/{submission_id} -> FAILED (404) 
+- GET /api/v1/homework/submissions/me -> PASSED (200) 
+- POST /api/v1/homework/{homework_id}/submit-oral -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- POST /api/v1/homework/grade/{user_homework_id} -> FAILED (404) 
+- GET /api/v1/payments/ -> PASSED (200) 
+- POST /api/v1/payments/webhook/stripe -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- POST /api/v1/payments/create-checkout-session -> SKIPPED (-) - Harmful/external side-effect ehtimoli
+- POST /api/v1/webrtc/rooms/create -> PASSED (200) 
+- GET /api/v1/webrtc/rooms/{room_id}/users -> PASSED (200) 
+- POST /api/v1/webrtc/rooms/{room_id}/end -> FAILED (404) 
+- GET /api/v1/avatars/ -> PASSED (200) 
+- GET /api/v1/avatars/{avatar_id} -> PASSED (200) 
+- GET /api/v1/metrics -> PASSED (200) 
+- GET /api/v1/metrics/health -> PASSED (200) 
+- GET /api/v1/metrics/status -> PASSED (200) 
+- GET /api/v1/recommendations/next-lessons -> PASSED (200) 
+- GET /api/v1/recommendations/personalized -> PASSED (200) 
+- GET /api/v1/recommendations/adaptive-lesson-plan/{lesson_id} -> PASSED (200) 
+- GET /api/v1/recommendations/for-you -> PASSED (200) 
+- GET /api/v1/exercises/ -> PASSED (200) 
+- GET /api/v1/exercises/{exercise_id} -> FAILED (404) 
+- POST /api/v1/exercises/{exercise_id}/check-answer -> FAILED (404) 
+- POST /api/v1/exercises/attempt -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/exercises/attempts/me -> PASSED (200) 
+- GET /api/v1/exercises/attempts/me/wrong -> PASSED (200) 
+- GET /api/v1/exercises/attempts/{attempt_id} -> FAILED (404) 
+- POST /api/v1/exercises/attempts/{attempt_id}/analyze -> FAILED (404) 
+- GET /api/v1/exercises/recommendations -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi

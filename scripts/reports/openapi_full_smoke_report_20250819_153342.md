@@ -1,0 +1,377 @@
+# OpenAPI Full Smoke Report (20250819_153342)
+
+- PASSED: 132
+- FAILED: 21
+- SKIPPED: 217
+
+## Tafsilotlar
+- GET /api/v1/admin/courses/ -> PASSED (200) 
+- POST /api/v1/admin/courses/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/courses/{course_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/courses/{course_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/interactive-lessons/ -> PASSED (200) 
+- POST /api/v1/admin/interactive-lessons/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/interactive-lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/interactive-lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/statistics -> PASSED (200) 
+- GET /api/v1/admin/subscription-plans/ -> PASSED (200) 
+- POST /api/v1/admin/subscription-plans/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/tests/questions/{question_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/tests/questions/{question_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PUT /api/v1/admin/tests/sections/{section_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/tests/sections/{section_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/sections/{section_id}/questions/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/tests/{test_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/{test_id}/sections/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/admin/users -> PASSED (200) 
+- POST /api/v1/admin/users -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/admin/users/{user_id} -> PASSED (200) 
+- PATCH /api/v1/admin/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/admin/users/{user_id}/profile -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/admin/users/{user_id}/role -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/ai/ask -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/pronunciation -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/stt -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/suggest-lesson -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/tts -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/avatars/ -> PASSED (200) 
+- GET /api/v1/avatars/{avatar_id} -> PASSED (200) 
+- POST /api/v1/certificates/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/certificates/my-certificates -> PASSED (200) 
+- GET /api/v1/certificates/user/{user_id} -> PASSED (200) 
+- GET /api/v1/certificates/{certificate_id}/download -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/certificates/{certificate_id}/verify/{verification_code} -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/courses/ -> PASSED (200) 
+- POST /api/v1/courses/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/courses/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/courses/{id} -> PASSED (200) 
+- DELETE /api/v1/courses/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/feedback/ -> PASSED (200) 
+- POST /api/v1/feedback/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- DELETE /api/v1/feedback/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/forum/categories/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/forum/categories/ -> PASSED (200) 
+- PUT /api/v1/forum/categories/{category_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/categories/{category_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/forum/categories/{category_id}/topics -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/forum/posts/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/forum/topics/ -> PASSED (200) 
+- POST /api/v1/forum/topics/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/forum/topics/{topic_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- PUT /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/homework/ -> PASSED (200) 
+- POST /api/v1/homework/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/files/{file_id}/download -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/homework/grade/{user_homework_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/lesson/{lesson_id} -> PASSED (200) 
+- GET /api/v1/homework/user/me -> PASSED (200) 
+- GET /api/v1/homework/{homework_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/homework/{homework_id}/assign/{user_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/{homework_id}/submit -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/{homework_id}/submit-oral -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/interactive-lessons/ -> PASSED (200) 
+- POST /api/v1/interactive-lessons/assess-pronunciation -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/send-audio-message -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/send-message -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/start-lesson -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/interactive-lessons/{lesson_id} -> PASSED (200) 
+- POST /api/v1/lesson-interactions/{session_id}/interact -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/lesson-interactions/{session_id}/interactions -> SKIPPED (404) - Resurs topilmadi (404)
+- GET /api/v1/lessons/ -> PASSED (200) 
+- POST /api/v1/lessons/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/lessons/{id} -> PASSED (200) 
+- DELETE /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/login -> SKIPPED (-) - Body talab qiladi — full-write yoqilmagan
+- GET /api/v1/login/test-token -> PASSED (200) 
+- GET /api/v1/metrics -> PASSED (200) 
+- GET /api/v1/metrics/health -> PASSED (200) 
+- GET /api/v1/metrics/status -> PASSED (200) 
+- GET /api/v1/notifications/ -> PASSED (200) 
+- POST /api/v1/notifications/read-all -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/notifications/unread-count -> PASSED (200) 
+- POST /api/v1/notifications/{notification_id}/read -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/payments/ -> PASSED (200) 
+- POST /api/v1/payments/create-checkout-session -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/payments/webhook/stripe -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/statistics/ -> PASSED (200) 
+- GET /api/v1/statistics/payment-stats -> PASSED (200) 
+- GET /api/v1/statistics/top-users -> PASSED (200) 
+- POST /api/v1/subscription-plans/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscription-plans/ -> PASSED (200) 
+- GET /api/v1/subscription-plans/{plan_id} -> PASSED (200) 
+- PUT /api/v1/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/subscriptions/ -> PASSED (200) 
+- POST /api/v1/subscriptions/create-checkout-session -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscriptions/me -> PASSED (200) 
+- GET /api/v1/subscriptions/plans -> PASSED (200) 
+- POST /api/v1/subscriptions/stripe-webhook -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/subscriptions/users/{user_id}/subscriptions -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscriptions/users/{user_id}/subscriptions -> PASSED (200) 
+- DELETE /api/v1/subscriptions/{subscription_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/tests/ -> PASSED (200) 
+- GET /api/v1/tests/attempts/me -> PASSED (200) 
+- GET /api/v1/tests/attempts/{attempt_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/tests/attempts/{attempt_id}/finish -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/tests/attempts/{attempt_id}/submit -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/tests/{test_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/tests/{test_id}/start -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/user-progress/ -> PASSED (200) 
+- POST /api/v1/user-progress/lessons/{lesson_id}/complete -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/ -> PASSED (200) 
+- POST /api/v1/users/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/certificates/ -> PASSED (200) 
+- GET /api/v1/users/certificates/{certificate_id} -> SKIPPED (404) - Resurs topilmadi (404)
+- POST /api/v1/users/courses/{course_id}/complete -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/me -> PASSED (200) 
+- PATCH /api/v1/users/me -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/users/me/next-lesson -> PASSED (200) 
+- GET /api/v1/users/me/premium-data -> PASSED (200) 
+- GET /api/v1/users/test-superuser -> PASSED (200) 
+- GET /api/v1/users/{user_id} -> PASSED (200) 
+- PUT /api/v1/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/webrtc/rooms/create -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/webrtc/rooms/{room_id}/end -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/webrtc/rooms/{room_id}/users -> PASSED (200) 
+- GET /api/v1/words/ -> PASSED (200) 
+- POST /api/v1/words/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/words/{id} -> SKIPPED (404) - Resurs topilmadi (404)
+- DELETE /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /health -> PASSED (200) 
+- GET /version -> PASSED (200) 
+- POST /api/v1/login/access-token -> SKIPPED (-) - Body talab qilishi mumkin — full-write yoqilmagan
+- GET /api/v1/login/test-token -> PASSED (200) 
+- POST /api/v1/logout -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/ -> PASSED (200) 
+- POST /api/v1/users/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/me -> PASSED (200) 
+- PATCH /api/v1/users/me -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/users/me/premium-data -> PASSED (200) 
+- GET /api/v1/users/me/next-lesson -> PASSED (200) 
+- GET /api/v1/users/test-superuser -> PASSED (200) 
+- GET /api/v1/users/{user_id} -> PASSED (200) 
+- PUT /api/v1/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/users/courses/{course_id}/complete -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/certificates/ -> PASSED (200) 
+- GET /api/v1/users/certificates/{certificate_id} -> FAILED (404) 
+- POST /api/v1/subscription-plans/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscription-plans/ -> PASSED (200) 
+- GET /api/v1/subscription-plans/{plan_id} -> PASSED (200) 
+- PUT /api/v1/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/courses/ -> PASSED (200) 
+- POST /api/v1/courses/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/courses/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/courses/{id} -> PASSED (200) 
+- DELETE /api/v1/courses/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/subscriptions/plans -> PASSED (200) 
+- POST /api/v1/subscriptions/stripe-webhook -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscriptions/status -> PASSED (200) 
+- POST /api/v1/subscriptions/create-checkout-session -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscriptions/ -> PASSED (200) 
+- POST /api/v1/subscriptions/users/{user_id}/subscriptions -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscriptions/users/{user_id}/subscriptions -> PASSED (200) 
+- GET /api/v1/subscriptions/me -> PASSED (200) 
+- DELETE /api/v1/subscriptions/{subscription_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/subscriptions/admin/config-check -> PASSED (200) 
+- POST /api/v1/subscriptions/admin/approve/{user_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/lessons/ -> PASSED (200) 
+- POST /api/v1/lessons/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/lessons/categories -> PASSED (200) 
+- GET /api/v1/lessons/videos -> PASSED (200) 
+- GET /api/v1/lessons/continue -> PASSED (200) 
+- PUT /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/lessons/{id} -> PASSED (200) 
+- DELETE /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/words/ -> PASSED (200) 
+- POST /api/v1/words/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/words/{id} -> FAILED (404) 
+- DELETE /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/statistics/ -> PASSED (200) 
+- GET /api/v1/statistics/top-users -> PASSED (200) 
+- GET /api/v1/statistics/payment-stats -> PASSED (200) 
+- GET /api/v1/user-progress/ -> PASSED (200) 
+- POST /api/v1/user-progress/lessons/{lesson_id}/complete -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/user-progress/last -> PASSED (200) 
+- POST /api/v1/user-progress/lessons/{lesson_id}/start -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/certificates/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/certificates/user/{user_id} -> PASSED (200) 
+- GET /api/v1/certificates/my-certificates -> PASSED (200) 
+- GET /api/v1/certificates/{certificate_id}/download -> FAILED (404) 
+- GET /api/v1/certificates/{certificate_id}/verify/{verification_code} -> FAILED (404) 
+- GET /api/v1/feedback/ -> PASSED (200) 
+- POST /api/v1/feedback/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- DELETE /api/v1/feedback/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/forum/categories/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/forum/categories/ -> PASSED (200) 
+- PUT /api/v1/forum/categories/{category_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/categories/{category_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/forum/topics/ -> PASSED (200) 
+- POST /api/v1/forum/topics/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/forum/categories/{category_id}/topics -> FAILED (404) 
+- GET /api/v1/forum/topics/{topic_id} -> FAILED (404) 
+- PUT /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/forum/posts/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/ai/tts/voices -> SKIPPED (-) - Fayl/stream talab qiladi
+- GET /api/v1/ai/stt/languages -> SKIPPED (-) - Fayl/stream talab qiladi
+- POST /api/v1/ai/ask -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/ai/lessons/suggested -> PASSED (200) 
+- POST /api/v1/ai/tts -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/analyze-answer -> SKIPPED (-) - Body talab qilishi mumkin — full-write yoqilmagan
+- POST /api/v1/ai/stt -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/pronunciation -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/ai/pronunciation/history -> PASSED (200) 
+- GET /api/v1/ai/pronunciation/summary -> PASSED (200) 
+- POST /api/v1/ai/voice-loop -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/suggest-lesson -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/ai/usage -> PASSED (200) 
+- POST /api/v1/ai/usage/reset -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai-sessions/sessions -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/ai-sessions/sessions -> PASSED (200) 
+- GET /api/v1/ai-sessions/sessions/{session_id} -> FAILED (500) 
+- PATCH /api/v1/ai-sessions/sessions/{session_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/ai-sessions/sessions/{session_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/ai-sessions/sessions/{session_id}/reset -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai-sessions/sessions/{session_id}/messages -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/ai-sessions/sessions/{session_id}/messages -> FAILED (500) 
+- GET /api/v1/notifications/ -> PASSED (200) 
+- GET /api/v1/notifications/unread-count -> PASSED (200) 
+- POST /api/v1/notifications/{notification_id}/read -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/notifications/read-all -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/notifications/admin/send -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/tests/ielts -> PASSED (200) 
+- GET /api/v1/tests/toefl -> PASSED (200) 
+- GET /api/v1/tests/ -> PASSED (200) 
+- GET /api/v1/tests/{test_id} -> FAILED (404) 
+- POST /api/v1/tests/{test_id}/start -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/tests/attempts/me -> PASSED (200) 
+- GET /api/v1/tests/attempts/{attempt_id} -> FAILED (404) 
+- POST /api/v1/tests/attempts/{attempt_id}/submit -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/tests/attempts/{attempt_id}/finish -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/admin/tests/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/tests/{test_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/{test_id}/sections/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/tests/sections/{section_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/tests/sections/{section_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/sections/{section_id}/questions/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/tests/questions/{question_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/tests/questions/{question_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/statistics -> PASSED (200) 
+- GET /api/v1/admin/users -> PASSED (200) 
+- POST /api/v1/admin/users -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/admin/users/{user_id} -> PASSED (200) 
+- PATCH /api/v1/admin/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/admin/users/{user_id}/profile -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/admin/users/{user_id}/role -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/subscription-plans/ -> PASSED (200) 
+- POST /api/v1/admin/subscription-plans/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/courses/ -> PASSED (200) 
+- POST /api/v1/admin/courses/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/courses/{course_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/courses/{course_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/interactive-lessons/ -> PASSED (200) 
+- POST /api/v1/admin/interactive-lessons/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/interactive-lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/interactive-lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/content/lessons/validate -> PASSED (200) 
+- GET /api/v1/content/lessons-json -> PASSED (200) 
+- PUT /api/v1/content/lessons-json -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/content/lessons -> PASSED (200) 
+- POST /api/v1/content/lessons -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/content/lessons/{lesson_id} -> FAILED (404) 
+- PUT /api/v1/content/lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/content/lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/content/lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/content/lessons/bulk-import -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/content/lessons/export -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi
+- GET /api/v1/content/media -> PASSED (200) 
+- POST /api/v1/content/media/upload -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- DELETE /api/v1/content/media/{filename} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/profile/me -> PASSED (200) 
+- PATCH /api/v1/profile/me -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/profile/stats -> PASSED (200) 
+- POST /api/v1/profile/change-password -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/profile/avatar -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/pronunciation/phrases/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/pronunciation/phrases/ -> PASSED (200) 
+- GET /api/v1/pronunciation/phrases/{phrase_id} -> FAILED (404) 
+- PUT /api/v1/pronunciation/phrases/{phrase_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/pronunciation/phrases/{phrase_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/pronunciation/sessions/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/pronunciation/sessions/ -> PASSED (200) 
+- GET /api/v1/pronunciation/sessions/{session_id} -> FAILED (404) 
+- PATCH /api/v1/pronunciation/sessions/{session_id}/complete -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/pronunciation/analyze/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/pronunciation/history/ -> PASSED (200) 
+- GET /api/v1/pronunciation/profile/ -> PASSED (200) 
+- GET /api/v1/interactive-lessons/ -> PASSED (200) 
+- GET /api/v1/interactive-lessons/{lesson_id} -> PASSED (200) 
+- POST /api/v1/interactive-lessons/start-lesson -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/send-message -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/send-audio-message -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/assess-pronunciation -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/lesson-interactions/{session_id}/interact -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/lesson-interactions/{session_id}/interactions -> FAILED (404) 
+- POST /api/v1/lesson-sessions/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/lesson-sessions/{session_id} -> FAILED (404) 
+- PUT /api/v1/lesson-sessions/{session_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/lesson-sessions/user/me -> PASSED (200) 
+- POST /api/v1/lesson-sessions/{session_id}/complete -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/ -> PASSED (200) 
+- POST /api/v1/homework/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/{homework_id} -> FAILED (404) 
+- GET /api/v1/homework/lesson/{lesson_id} -> PASSED (200) 
+- GET /api/v1/homework/files/{file_id}/download -> FAILED (404) 
+- POST /api/v1/homework/{homework_id}/assign -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/assign/{homework_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/user/me -> PASSED (200) 
+- POST /api/v1/homework/{homework_id}/submit -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/submit/{homework_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/submissions/{submission_id}/grade -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/grade/{submission_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/submissions/me -> PASSED (200) 
+- POST /api/v1/homework/{homework_id}/submit-oral -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/grade/{user_homework_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/payments/ -> PASSED (200) 
+- POST /api/v1/payments/webhook/stripe -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/payments/create-checkout-session -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/webrtc/rooms/create -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/webrtc/rooms/{room_id}/users -> PASSED (200) 
+- POST /api/v1/webrtc/rooms/{room_id}/end -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/avatars/ -> PASSED (200) 
+- GET /api/v1/avatars/{avatar_id} -> PASSED (200) 
+- GET /api/v1/metrics -> PASSED (200) 
+- GET /api/v1/metrics/health -> PASSED (200) 
+- GET /api/v1/metrics/status -> PASSED (200) 
+- GET /api/v1/recommendations/next-lessons -> PASSED (200) 
+- GET /api/v1/recommendations/personalized -> PASSED (200) 
+- GET /api/v1/recommendations/adaptive-lesson-plan/{lesson_id} -> FAILED (500) 
+- GET /api/v1/recommendations/for-you -> PASSED (200) 
+- GET /api/v1/exercises/ -> PASSED (200) 
+- GET /api/v1/exercises/{exercise_id} -> FAILED (404) 
+- POST /api/v1/exercises/{exercise_id}/check-answer -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/exercises/attempt -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/exercises/attempts/me -> FAILED (500) 
+- GET /api/v1/exercises/attempts/me/wrong -> PASSED (200) 
+- GET /api/v1/exercises/attempts/{attempt_id} -> FAILED (404) 
+- POST /api/v1/exercises/attempts/{attempt_id}/analyze -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/exercises/recommendations -> SKIPPED (422) - Invalid payload yoki majburiy maydonlar yetishmaydi

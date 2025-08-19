@@ -1,0 +1,3 @@
+PUT /api/v1/words/2
+PATCH /api/v1/words/2
+DELETE /api/v1/words/2

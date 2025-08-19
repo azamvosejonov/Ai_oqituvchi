@@ -1,0 +1,56 @@
+{
+  "name": "O'quv Platformasi",
+  "short_name": "O'quv App",
+  "description": "AI asosidagi interaktiv o'quv platformasi",
+  "start_url": "/?source=pwa",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4CAF50",
+  "icons": [
+    {
+      "src": "/static/media/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/media/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/static/media/screenshot1.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "label": "Home Screen"
+    },
+    {
+      "src": "/static/media/screenshot2.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "label": "Lesson View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Continue Learning",
+      "short_name": "Continue",
+      "description": "Continue your last lesson",
+      "url": "/continue?source=pwa"
+    },
+    {
+      "name": "Practice Speaking",
+      "short_name": "Speak",
+      "description": "Practice speaking exercises",
+      "url": "/practice/speaking?source=pwa"
+    }
+  ],
+  "prefer_related_applications": false,
+  "categories": ["education", "productivity"],
+  "orientation": "portrait",
+  "scope": "/",
+  "dir": "ltr",
+  "lang": "en-US"
+}

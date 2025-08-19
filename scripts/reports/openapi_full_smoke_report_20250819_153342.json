@@ -1,0 +1,3702 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/courses/{course_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/{course_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/courses/{course_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/{course_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/interactive-lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/interactive-lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/interactive-lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/{lesson_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/interactive-lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/{lesson_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/statistics",
+    "url": "http://0.0.0.0:8004/api/v1/admin/statistics",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/tests/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/tests/questions/{question_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/questions/{question_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/tests/questions/{question_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/questions/{question_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/tests/sections/{section_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/sections/{section_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/tests/sections/{section_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/sections/{section_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/tests/sections/{section_id}/questions/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/sections/{section_id}/questions/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/tests/{test_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/{test_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/tests/{test_id}/sections/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/{test_id}/sections/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/users",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/users",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/users/{user_id}/profile",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}/profile",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/users/{user_id}/role",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}/role",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/ask",
+    "url": "http://0.0.0.0:8004/api/v1/ai/ask",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/pronunciation",
+    "url": "http://0.0.0.0:8004/api/v1/ai/pronunciation",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/stt",
+    "url": "http://0.0.0.0:8004/api/v1/ai/stt",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/suggest-lesson",
+    "url": "http://0.0.0.0:8004/api/v1/ai/suggest-lesson",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/tts",
+    "url": "http://0.0.0.0:8004/api/v1/ai/tts",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/avatars/",
+    "url": "http://0.0.0.0:8004/api/v1/avatars/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/avatars/{avatar_id}",
+    "url": "http://0.0.0.0:8004/api/v1/avatars/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/certificates/",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/my-certificates",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/my-certificates",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/user/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/user/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/{certificate_id}/download",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/1/download",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/{certificate_id}/verify/{verification_code}",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/1/verify/1",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/courses/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/courses/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/feedback/",
+    "url": "http://0.0.0.0:8004/api/v1/feedback/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/feedback/",
+    "url": "http://0.0.0.0:8004/api/v1/feedback/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/feedback/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/feedback/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/forum/categories/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/categories/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/categories/{category_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/{category_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/categories/{category_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/{category_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/categories/{category_id}/topics",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/1/topics",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/forum/posts/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/posts/{post_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/{post_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/posts/{post_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/{post_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/topics/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/forum/topics/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/1",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/{topic_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/{topic_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/",
+    "url": "http://0.0.0.0:8004/api/v1/homework/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/",
+    "url": "http://0.0.0.0:8004/api/v1/homework/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/files/{file_id}/download",
+    "url": "http://0.0.0.0:8004/api/v1/homework/files/1/download",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/grade/{user_homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/grade/{user_homework_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/lesson/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/lesson/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/user/me",
+    "url": "http://0.0.0.0:8004/api/v1/homework/user/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/{homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/1",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/assign/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/{homework_id}/assign/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/submit",
+    "url": "http://0.0.0.0:8004/api/v1/homework/{homework_id}/submit",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/submit-oral",
+    "url": "http://0.0.0.0:8004/api/v1/homework/{homework_id}/submit-oral",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/interactive-lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/assess-pronunciation",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/assess-pronunciation",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/send-audio-message",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/send-audio-message",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/send-message",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/send-message",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/start-lesson",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/start-lesson",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/interactive-lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/lesson-interactions/{session_id}/interact",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-interactions/{session_id}/interact",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lesson-interactions/{session_id}/interactions",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-interactions/1/interactions",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/login",
+    "url": "http://0.0.0.0:8004/api/v1/login",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Body talab qiladi — full-write yoqilmagan",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/login/test-token",
+    "url": "http://0.0.0.0:8004/api/v1/login/test-token",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/metrics",
+    "url": "http://0.0.0.0:8004/api/v1/metrics",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/metrics/health",
+    "url": "http://0.0.0.0:8004/api/v1/metrics/health",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/metrics/status",
+    "url": "http://0.0.0.0:8004/api/v1/metrics/status",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/notifications/",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/notifications/read-all",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/read-all",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/notifications/unread-count",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/unread-count",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/notifications/{notification_id}/read",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/{notification_id}/read",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/payments/",
+    "url": "http://0.0.0.0:8004/api/v1/payments/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/payments/create-checkout-session",
+    "url": "http://0.0.0.0:8004/api/v1/payments/create-checkout-session",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/payments/webhook/stripe",
+    "url": "http://0.0.0.0:8004/api/v1/payments/webhook/stripe",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/statistics/",
+    "url": "http://0.0.0.0:8004/api/v1/statistics/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/statistics/payment-stats",
+    "url": "http://0.0.0.0:8004/api/v1/statistics/payment-stats",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/statistics/top-users",
+    "url": "http://0.0.0.0:8004/api/v1/statistics/top-users",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscriptions/create-checkout-session",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/create-checkout-session",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/me",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/plans",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/plans",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscriptions/stripe-webhook",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/stripe-webhook",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscriptions/users/{user_id}/subscriptions",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/users/{user_id}/subscriptions",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/users/{user_id}/subscriptions",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/users/1/subscriptions",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/subscriptions/{subscription_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/{subscription_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/",
+    "url": "http://0.0.0.0:8004/api/v1/tests/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/attempts/me",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/attempts/{attempt_id}",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/1",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/attempts/{attempt_id}/finish",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/{attempt_id}/finish",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/attempts/{attempt_id}/submit",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/{attempt_id}/submit",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/{test_id}",
+    "url": "http://0.0.0.0:8004/api/v1/tests/1",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/{test_id}/start",
+    "url": "http://0.0.0.0:8004/api/v1/tests/{test_id}/start",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/user-progress/",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/user-progress/lessons/{lesson_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/lessons/{lesson_id}/complete",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/",
+    "url": "http://0.0.0.0:8004/api/v1/users/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/users/",
+    "url": "http://0.0.0.0:8004/api/v1/users/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/certificates/",
+    "url": "http://0.0.0.0:8004/api/v1/users/certificates/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/certificates/{certificate_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/certificates/1",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/users/courses/{course_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/users/courses/{course_id}/complete",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/me",
+    "url": "http://0.0.0.0:8004/api/v1/users/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/users/me",
+    "url": "http://0.0.0.0:8004/api/v1/users/me",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/me/next-lesson",
+    "url": "http://0.0.0.0:8004/api/v1/users/me/next-lesson",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/me/premium-data",
+    "url": "http://0.0.0.0:8004/api/v1/users/me/premium-data",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/test-superuser",
+    "url": "http://0.0.0.0:8004/api/v1/users/test-superuser",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/webrtc/rooms/create",
+    "url": "http://0.0.0.0:8004/api/v1/webrtc/rooms/create",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/webrtc/rooms/{room_id}/end",
+    "url": "http://0.0.0.0:8004/api/v1/webrtc/rooms/{room_id}/end",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/webrtc/rooms/{room_id}/users",
+    "url": "http://0.0.0.0:8004/api/v1/webrtc/rooms/1/users",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/words/",
+    "url": "http://0.0.0.0:8004/api/v1/words/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/words/",
+    "url": "http://0.0.0.0:8004/api/v1/words/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/1",
+    "status": "SKIPPED",
+    "http_status": 404,
+    "reason": "Resurs topilmadi (404)",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/health",
+    "url": "http://0.0.0.0:8004/health",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/version",
+    "url": "http://0.0.0.0:8004/version",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/login/access-token",
+    "url": "http://0.0.0.0:8004/api/v1/login/access-token",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Body talab qilishi mumkin — full-write yoqilmagan",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/login/test-token",
+    "url": "http://0.0.0.0:8004/api/v1/login/test-token",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/logout",
+    "url": "http://0.0.0.0:8004/api/v1/logout",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/",
+    "url": "http://0.0.0.0:8004/api/v1/users/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/users/",
+    "url": "http://0.0.0.0:8004/api/v1/users/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/me",
+    "url": "http://0.0.0.0:8004/api/v1/users/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/users/me",
+    "url": "http://0.0.0.0:8004/api/v1/users/me",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/me/premium-data",
+    "url": "http://0.0.0.0:8004/api/v1/users/me/premium-data",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/me/next-lesson",
+    "url": "http://0.0.0.0:8004/api/v1/users/me/next-lesson",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/test-superuser",
+    "url": "http://0.0.0.0:8004/api/v1/users/test-superuser",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/users/courses/{course_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/users/courses/{course_id}/complete",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/certificates/",
+    "url": "http://0.0.0.0:8004/api/v1/users/certificates/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/users/certificates/{certificate_id}",
+    "url": "http://0.0.0.0:8004/api/v1/users/certificates/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Certificate not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/courses/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/courses/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/courses/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/courses/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/plans",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/plans",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscriptions/stripe-webhook",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/stripe-webhook",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/status",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/status",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscriptions/create-checkout-session",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/create-checkout-session",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscriptions/users/{user_id}/subscriptions",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/users/{user_id}/subscriptions",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/users/{user_id}/subscriptions",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/users/1/subscriptions",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/me",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/subscriptions/{subscription_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/{subscription_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/subscriptions/admin/config-check",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/admin/config-check",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/subscriptions/admin/approve/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/subscriptions/admin/approve/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/categories",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/categories",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/videos",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/videos",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/continue",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/continue",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/lessons/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/lessons/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/words/",
+    "url": "http://0.0.0.0:8004/api/v1/words/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/words/",
+    "url": "http://0.0.0.0:8004/api/v1/words/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Word not found\"}"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/words/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/words/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/statistics/",
+    "url": "http://0.0.0.0:8004/api/v1/statistics/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/statistics/top-users",
+    "url": "http://0.0.0.0:8004/api/v1/statistics/top-users",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/statistics/payment-stats",
+    "url": "http://0.0.0.0:8004/api/v1/statistics/payment-stats",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/user-progress/",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/user-progress/lessons/{lesson_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/lessons/{lesson_id}/complete",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/user-progress/last",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/last",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/user-progress/lessons/{lesson_id}/start",
+    "url": "http://0.0.0.0:8004/api/v1/user-progress/lessons/{lesson_id}/start",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/certificates/",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/user/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/user/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/my-certificates",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/my-certificates",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/{certificate_id}/download",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/1/download",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Certificate not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/certificates/{certificate_id}/verify/{verification_code}",
+    "url": "http://0.0.0.0:8004/api/v1/certificates/1/verify/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Certificate not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/feedback/",
+    "url": "http://0.0.0.0:8004/api/v1/feedback/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/feedback/",
+    "url": "http://0.0.0.0:8004/api/v1/feedback/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/feedback/{id}",
+    "url": "http://0.0.0.0:8004/api/v1/feedback/{id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/forum/categories/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/categories/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/categories/{category_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/{category_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/categories/{category_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/{category_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/topics/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/forum/topics/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/categories/{category_id}/topics",
+    "url": "http://0.0.0.0:8004/api/v1/forum/categories/1/topics",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Category not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Topic not found\"}"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/{topic_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/topics/{topic_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/topics/{topic_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/forum/posts/",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/forum/posts/{post_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/{post_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/forum/posts/{post_id}",
+    "url": "http://0.0.0.0:8004/api/v1/forum/posts/{post_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai/tts/voices",
+    "url": "http://0.0.0.0:8004/api/v1/ai/tts/voices",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Fayl/stream talab qiladi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai/stt/languages",
+    "url": "http://0.0.0.0:8004/api/v1/ai/stt/languages",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Fayl/stream talab qiladi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/ask",
+    "url": "http://0.0.0.0:8004/api/v1/ai/ask",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai/lessons/suggested",
+    "url": "http://0.0.0.0:8004/api/v1/ai/lessons/suggested",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/tts",
+    "url": "http://0.0.0.0:8004/api/v1/ai/tts",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/analyze-answer",
+    "url": "http://0.0.0.0:8004/api/v1/ai/analyze-answer",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Body talab qilishi mumkin — full-write yoqilmagan",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/stt",
+    "url": "http://0.0.0.0:8004/api/v1/ai/stt",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/pronunciation",
+    "url": "http://0.0.0.0:8004/api/v1/ai/pronunciation",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai/pronunciation/history",
+    "url": "http://0.0.0.0:8004/api/v1/ai/pronunciation/history",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai/pronunciation/summary",
+    "url": "http://0.0.0.0:8004/api/v1/ai/pronunciation/summary",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/voice-loop",
+    "url": "http://0.0.0.0:8004/api/v1/ai/voice-loop",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/suggest-lesson",
+    "url": "http://0.0.0.0:8004/api/v1/ai/suggest-lesson",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai/usage",
+    "url": "http://0.0.0.0:8004/api/v1/ai/usage",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/usage/reset",
+    "url": "http://0.0.0.0:8004/api/v1/ai/usage/reset",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai-sessions/sessions",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai-sessions/sessions",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/1",
+    "status": "FAILED",
+    "http_status": 500,
+    "reason": "",
+    "duration_ms": null,
+    "error": "Internal Server Error"
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/{session_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/{session_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}/reset",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/{session_id}/reset",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}/messages",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/{session_id}/messages",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/ai-sessions/sessions/{session_id}/messages",
+    "url": "http://0.0.0.0:8004/api/v1/ai-sessions/sessions/1/messages",
+    "status": "FAILED",
+    "http_status": 500,
+    "reason": "",
+    "duration_ms": null,
+    "error": "Internal Server Error"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/notifications/",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/notifications/unread-count",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/unread-count",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/notifications/{notification_id}/read",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/{notification_id}/read",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/notifications/read-all",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/read-all",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/notifications/admin/send",
+    "url": "http://0.0.0.0:8004/api/v1/notifications/admin/send",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/ielts",
+    "url": "http://0.0.0.0:8004/api/v1/tests/ielts",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/toefl",
+    "url": "http://0.0.0.0:8004/api/v1/tests/toefl",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/",
+    "url": "http://0.0.0.0:8004/api/v1/tests/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/{test_id}",
+    "url": "http://0.0.0.0:8004/api/v1/tests/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Test not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/{test_id}/start",
+    "url": "http://0.0.0.0:8004/api/v1/tests/{test_id}/start",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/attempts/me",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/tests/attempts/{attempt_id}",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Attempt not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/attempts/{attempt_id}/submit",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/{attempt_id}/submit",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/tests/attempts/{attempt_id}/finish",
+    "url": "http://0.0.0.0:8004/api/v1/tests/attempts/{attempt_id}/finish",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/tests/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/tests/{test_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/{test_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/tests/{test_id}/sections/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/{test_id}/sections/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/tests/sections/{section_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/sections/{section_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/tests/sections/{section_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/sections/{section_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/tests/sections/{section_id}/questions/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/sections/{section_id}/questions/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/tests/questions/{question_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/questions/{question_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/tests/questions/{question_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/tests/questions/{question_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/statistics",
+    "url": "http://0.0.0.0:8004/api/v1/admin/statistics",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/users",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/users",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/users/{user_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/users/{user_id}/profile",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}/profile",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/admin/users/{user_id}/role",
+    "url": "http://0.0.0.0:8004/api/v1/admin/users/{user_id}/role",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/subscription-plans/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/subscription-plans/{plan_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/subscription-plans/{plan_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/courses/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/courses/{course_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/{course_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/courses/{course_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/courses/{course_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/admin/interactive-lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/admin/interactive-lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/admin/interactive-lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/{lesson_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/admin/interactive-lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/admin/interactive-lessons/{lesson_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/content/lessons/validate",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/validate",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/content/lessons-json",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons-json",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/content/lessons-json",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons-json",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/content/lessons",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/content/lessons",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/content/lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Lesson not found\"}"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/content/lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/{lesson_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/content/lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/{lesson_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/content/lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/{lesson_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/content/lessons/bulk-import",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/bulk-import",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/content/lessons/export",
+    "url": "http://0.0.0.0:8004/api/v1/content/lessons/export",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/content/media",
+    "url": "http://0.0.0.0:8004/api/v1/content/media",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/content/media/upload",
+    "url": "http://0.0.0.0:8004/api/v1/content/media/upload",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/content/media/{filename}",
+    "url": "http://0.0.0.0:8004/api/v1/content/media/{filename}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/profile/me",
+    "url": "http://0.0.0.0:8004/api/v1/profile/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/profile/me",
+    "url": "http://0.0.0.0:8004/api/v1/profile/me",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/profile/stats",
+    "url": "http://0.0.0.0:8004/api/v1/profile/stats",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/profile/change-password",
+    "url": "http://0.0.0.0:8004/api/v1/profile/change-password",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/profile/avatar",
+    "url": "http://0.0.0.0:8004/api/v1/profile/avatar",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/pronunciation/phrases/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/phrases/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/phrases/{phrase_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Pronunciation phrase not found\"}"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/pronunciation/phrases/{phrase_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/{phrase_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/v1/pronunciation/phrases/{phrase_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/phrases/{phrase_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/pronunciation/sessions/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/sessions/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/sessions/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/sessions/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/sessions/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Pronunciation session not found\"}"
+  },
+  {
+    "method": "PATCH",
+    "path": "/api/v1/pronunciation/sessions/{session_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/sessions/{session_id}/complete",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/pronunciation/analyze/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/analyze/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/history/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/history/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/pronunciation/profile/",
+    "url": "http://0.0.0.0:8004/api/v1/pronunciation/profile/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/interactive-lessons/",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/interactive-lessons/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/start-lesson",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/start-lesson",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/send-message",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/send-message",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/send-audio-message",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/send-audio-message",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/interactive-lessons/assess-pronunciation",
+    "url": "http://0.0.0.0:8004/api/v1/interactive-lessons/assess-pronunciation",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/lesson-interactions/{session_id}/interact",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-interactions/{session_id}/interact",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lesson-interactions/{session_id}/interactions",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-interactions/1/interactions",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Session not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/lesson-sessions/",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-sessions/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lesson-sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-sessions/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Session not found\"}"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/v1/lesson-sessions/{session_id}",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-sessions/{session_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/lesson-sessions/user/me",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-sessions/user/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/lesson-sessions/{session_id}/complete",
+    "url": "http://0.0.0.0:8004/api/v1/lesson-sessions/{session_id}/complete",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/",
+    "url": "http://0.0.0.0:8004/api/v1/homework/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/",
+    "url": "http://0.0.0.0:8004/api/v1/homework/",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/{homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Homework not found\"}"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/lesson/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/lesson/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/files/{file_id}/download",
+    "url": "http://0.0.0.0:8004/api/v1/homework/files/1/download",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"File not found\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/assign",
+    "url": "http://0.0.0.0:8004/api/v1/homework/{homework_id}/assign",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/assign/{homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/assign/{homework_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/user/me",
+    "url": "http://0.0.0.0:8004/api/v1/homework/user/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/submit",
+    "url": "http://0.0.0.0:8004/api/v1/homework/{homework_id}/submit",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/submit/{homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/submit/{homework_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/submissions/{submission_id}/grade",
+    "url": "http://0.0.0.0:8004/api/v1/homework/submissions/{submission_id}/grade",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/grade/{submission_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/grade/{submission_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/homework/submissions/me",
+    "url": "http://0.0.0.0:8004/api/v1/homework/submissions/me",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/submit-oral",
+    "url": "http://0.0.0.0:8004/api/v1/homework/{homework_id}/submit-oral",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/grade/{user_homework_id}",
+    "url": "http://0.0.0.0:8004/api/v1/homework/grade/{user_homework_id}",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/payments/",
+    "url": "http://0.0.0.0:8004/api/v1/payments/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/payments/webhook/stripe",
+    "url": "http://0.0.0.0:8004/api/v1/payments/webhook/stripe",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/payments/create-checkout-session",
+    "url": "http://0.0.0.0:8004/api/v1/payments/create-checkout-session",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/webrtc/rooms/create",
+    "url": "http://0.0.0.0:8004/api/v1/webrtc/rooms/create",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/webrtc/rooms/{room_id}/users",
+    "url": "http://0.0.0.0:8004/api/v1/webrtc/rooms/1/users",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/webrtc/rooms/{room_id}/end",
+    "url": "http://0.0.0.0:8004/api/v1/webrtc/rooms/{room_id}/end",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/avatars/",
+    "url": "http://0.0.0.0:8004/api/v1/avatars/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/avatars/{avatar_id}",
+    "url": "http://0.0.0.0:8004/api/v1/avatars/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/metrics",
+    "url": "http://0.0.0.0:8004/api/v1/metrics",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/metrics/health",
+    "url": "http://0.0.0.0:8004/api/v1/metrics/health",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/metrics/status",
+    "url": "http://0.0.0.0:8004/api/v1/metrics/status",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/recommendations/next-lessons",
+    "url": "http://0.0.0.0:8004/api/v1/recommendations/next-lessons",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/recommendations/personalized",
+    "url": "http://0.0.0.0:8004/api/v1/recommendations/personalized",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/recommendations/adaptive-lesson-plan/{lesson_id}",
+    "url": "http://0.0.0.0:8004/api/v1/recommendations/adaptive-lesson-plan/1",
+    "status": "FAILED",
+    "http_status": 500,
+    "reason": "",
+    "duration_ms": null,
+    "error": "Internal Server Error"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/recommendations/for-you",
+    "url": "http://0.0.0.0:8004/api/v1/recommendations/for-you",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/{exercise_id}",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Mashq topilmadi\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/exercises/{exercise_id}/check-answer",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/{exercise_id}/check-answer",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/exercises/attempt",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/attempt",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/attempts/me",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/attempts/me",
+    "status": "FAILED",
+    "http_status": 500,
+    "reason": "",
+    "duration_ms": null,
+    "error": "Internal Server Error"
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/attempts/me/wrong",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/attempts/me/wrong",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/attempts/{attempt_id}",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/attempts/1",
+    "status": "FAILED",
+    "http_status": 404,
+    "reason": "",
+    "duration_ms": null,
+    "error": "{\"detail\":\"Ushbu urinish topilmadi\"}"
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/exercises/attempts/{attempt_id}/analyze",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/attempts/{attempt_id}/analyze",
+    "status": "SKIPPED",
+    "http_status": null,
+    "reason": "POST xavfsiz ro'yxatda emas — SKIPPED",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "GET",
+    "path": "/api/v1/exercises/recommendations",
+    "url": "http://0.0.0.0:8004/api/v1/exercises/recommendations",
+    "status": "SKIPPED",
+    "http_status": 422,
+    "reason": "Invalid payload yoki majburiy maydonlar yetishmaydi",
+    "duration_ms": null,
+    "error": ""
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/v1/words/",
+    "url": "http://0.0.0.0:8004/api/v1/words/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  }
+]

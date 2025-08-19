@@ -1,0 +1,151 @@
+# OpenAPI Full Smoke Report (20250819_150539)
+
+- PASSED: 3
+- FAILED: 9
+- SKIPPED: 132
+
+## Tafsilotlar
+- GET /api/v1/admin/courses/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/admin/courses/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/courses/{course_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/courses/{course_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/interactive-lessons/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/admin/interactive-lessons/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/interactive-lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/interactive-lessons/{lesson_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/admin/statistics -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/admin/subscription-plans/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/admin/subscription-plans/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/tests/questions/{question_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/tests/questions/{question_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PUT /api/v1/admin/tests/sections/{section_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/tests/sections/{section_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/sections/{section_id}/questions/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/admin/tests/{test_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/admin/tests/{test_id}/sections/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/admin/users -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/admin/users -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/admin/users/{user_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- PATCH /api/v1/admin/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/admin/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/admin/users/{user_id}/profile -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- PATCH /api/v1/admin/users/{user_id}/role -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/ai/ask -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/pronunciation -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/stt -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/suggest-lesson -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/ai/tts -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/avatars/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/avatars/{avatar_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/certificates/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/certificates/my-certificates -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/certificates/user/{user_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/certificates/{certificate_id}/download -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/certificates/{certificate_id}/verify/{verification_code} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/courses/ -> FAILED (500) - HTTP 500: Internal Server Error
+- POST /api/v1/courses/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/courses/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/courses/{id} -> FAILED (500) - HTTP 500: Internal Server Error
+- DELETE /api/v1/courses/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/feedback/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/feedback/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- DELETE /api/v1/feedback/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/forum/categories/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/forum/categories/ -> FAILED (500) - HTTP 500: Internal Server Error
+- PUT /api/v1/forum/categories/{category_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/categories/{category_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/forum/categories/{category_id}/topics -> FAILED (500) - HTTP 500: Internal Server Error
+- POST /api/v1/forum/posts/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/posts/{post_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/forum/topics/ -> FAILED (500) - HTTP 500: Internal Server Error
+- POST /api/v1/forum/topics/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/forum/topics/{topic_id} -> FAILED (500) - HTTP 500: Internal Server Error
+- PUT /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/forum/topics/{topic_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/homework/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/homework/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/files/{file_id}/download -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/homework/grade/{user_homework_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/homework/lesson/{lesson_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/homework/user/me -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/homework/{homework_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/homework/{homework_id}/assign/{user_id} -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/{homework_id}/submit -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/homework/{homework_id}/submit-oral -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/interactive-lessons/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/interactive-lessons/assess-pronunciation -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/send-audio-message -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/send-message -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/interactive-lessons/start-lesson -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/interactive-lessons/{lesson_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/lesson-interactions/{session_id}/interact -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/lesson-interactions/{session_id}/interactions -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/lessons/ -> FAILED (500) - HTTP 500: Internal Server Error
+- POST /api/v1/lessons/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/lessons/{id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- DELETE /api/v1/lessons/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/login -> SKIPPED (-) - Body talab qiladi — avtomatik ma'lumot yo'q
+- GET /api/v1/login/test-token -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/metrics -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/metrics/health -> PASSED (200) 
+- GET /api/v1/metrics/status -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/notifications/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/notifications/read-all -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/notifications/unread-count -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/notifications/{notification_id}/read -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/payments/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/payments/create-checkout-session -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/payments/webhook/stripe -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/statistics/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/statistics/payment-stats -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/statistics/top-users -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/subscription-plans/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscription-plans/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/subscription-plans/{plan_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- PUT /api/v1/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/subscription-plans/{plan_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/subscriptions/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/subscriptions/create-checkout-session -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscriptions/me -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/subscriptions/plans -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/subscriptions/stripe-webhook -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/subscriptions/users/{user_id}/subscriptions -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/subscriptions/users/{user_id}/subscriptions -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- DELETE /api/v1/subscriptions/{subscription_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/tests/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/tests/attempts/me -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/tests/attempts/{attempt_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/tests/attempts/{attempt_id}/finish -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/tests/attempts/{attempt_id}/submit -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/tests/{test_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/tests/{test_id}/start -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/user-progress/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/user-progress/lessons/{lesson_id}/complete -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/users/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/certificates/ -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/users/certificates/{certificate_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- POST /api/v1/users/courses/{course_id}/complete -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/users/me -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- PATCH /api/v1/users/me -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/users/me/next-lesson -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/users/me/premium-data -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/users/test-superuser -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/users/{user_id} -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- PUT /api/v1/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- DELETE /api/v1/users/{user_id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- POST /api/v1/webrtc/rooms/create -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- POST /api/v1/webrtc/rooms/{room_id}/end -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- GET /api/v1/webrtc/rooms/{room_id}/users -> SKIPPED (401) - Auth kerak yoki ruxsat yo'q (401)
+- GET /api/v1/words/ -> FAILED (500) - HTTP 500: Internal Server Error
+- POST /api/v1/words/ -> SKIPPED (-) - POST xavfsiz ro'yxatda emas — SKIPPED
+- PUT /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /api/v1/words/{id} -> FAILED (500) - HTTP 500: Internal Server Error
+- DELETE /api/v1/words/{id} -> SKIPPED (-) - Destruktiv metod (PUT/PATCH/DELETE) — default SKIPPED
+- GET /health -> PASSED (200) 
+- GET /version -> PASSED (200) 
