@@ -162,7 +162,7 @@ async def text_to_speech(
     current_user: models.User = Depends(deps.get_current_user_with_free_window),
 ):
     """
-    Converts text to speech and streams the audio back.
+    Converts text to speech, saves MP3 to uploads and returns a public audio URL.
     """
     try:
         text_length = len(payload.text or "")
@@ -181,10 +181,27 @@ async def text_to_speech(
         db.commit()
         db.refresh(usage)
 
-        return StreamingResponse(
-            ai_service.text_to_speech_stream(text=payload.text, language_code=payload.language),
-            media_type="audio/mpeg"
-        )
+        # Generate MP3 via gTTS and store under uploads/tts, then return a link
+        uploads_root = Path(settings.UPLOAD_DIR)
+        tts_dir = uploads_root / "tts"
+        tts_dir.mkdir(parents=True, exist_ok=True)
+
+        filename = f"tts_{current_user.id}_{int(datetime.utcnow().timestamp())}.mp3"
+        filepath = tts_dir / filename
+
+        # Resolve language with fallback based on supported gTTS langs
+        requested = (payload.language or "en").split('-')[0]
+        supported_langs = tts_langs()
+        fallback_order = [requested, "uz", "tr", "ru", "en"]
+        chosen = next((lc for lc in fallback_order if lc in supported_langs), None)
+        if not chosen:
+            chosen = next(iter(supported_langs.keys()))
+
+        tts = gTTS(text=payload.text, lang=chosen, slow=False)
+        tts.save(str(filepath))
+
+        audio_url = f"/uploads/tts/{filename}"
+        return {"audio_url": audio_url}
     except HTTPException as e:
         # Return HTTPExceptions (e.g., 403 quota exceeded) as-is instead of wrapping into 500
         raise e
