@@ -256,6 +256,30 @@ async def post_message(
     if not history:
         history = [{"role": "user", "parts": [{"text": user_text}]}]
 
+    # 3.1) Inject adaptive instruction based on user's level (safe, local-only)
+    # This only affects the current endpoint's prompt and does not change other APIs.
+    try:
+        level_value = None
+        progress = getattr(current_user, "progress", None)
+        if progress is not None and getattr(progress, "level", None) is not None:
+            # SQLAlchemy Enum -> use .value if available, otherwise str(enum)
+            enum_level = progress.level
+            level_value = getattr(enum_level, "value", str(enum_level))
+        level_value = level_value or "beginner"
+
+        instruction_text = (
+            f"Ko'rsatma: foydalanuvchi darajasi '{level_value}'. "
+            f"Javobni '{language}' tilida qisqa, sodda va tushunarli qiling. "
+            "Maslahat, kichik topshiriq va 1-2 savol kiriting. "
+            "Kerak bo'lsa qisqa misol keltiring."
+        )
+
+        # Prepend instruction as context; last item remains the current user turn
+        history.insert(0, {"role": "user", "parts": [{"text": instruction_text}]})
+    except Exception:
+        # Fail-safe: if anything goes wrong, continue without instruction
+        pass
+
     # 4) Get assistant response via LLM (Gemini or disabled fallback)
     assistant_text_chunks: List[str] = []
     try:
