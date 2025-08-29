@@ -1,0 +1,42 @@
+[
+  {
+    "method": "POST",
+    "path": "/api/v1/pronunciation/sessions/",
+    "url": "http://0.0.0.0:8002/api/v1/pronunciation/sessions/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/submit/{homework_id}",
+    "url": "http://0.0.0.0:8002/api/v1/homework/submit/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/{homework_id}/submit",
+    "url": "http://0.0.0.0:8002/api/v1/homework/1/submit",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/homework/grade/{user_homework_id}",
+    "url": "http://0.0.0.0:8002/api/v1/homework/grade/1",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  }
+]

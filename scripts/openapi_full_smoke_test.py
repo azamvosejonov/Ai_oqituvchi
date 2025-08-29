@@ -49,6 +49,17 @@ HARMFUL_ENDPOINT_HINTS = [
     "create-checkout-session",
 ]
 
+# Action-like path segments that are not list resources; avoid probing them with GET
+ACTION_SEGMENT_HINTS = {
+    "grade",
+    "submit",
+    "reset",
+    "interact",
+    "start-lesson",
+    "send-message",
+    "assess-pronunciation",
+}
+
 
 @dataclass
 class Result:
@@ -267,6 +278,10 @@ def list_endpoint_for(path: str) -> Optional[str]:
         # agar '/...' bilan tugasa ham ro'yxat bo'lishi mumkin
         if not base.endswith("/"):
             base = base.rsplit("/", 1)[0] + "/"
+        # Agar oxirgi segment action ko'rinishida bo'lsa, ro'yxat endpointi yo'q deb hisoblaymiz
+        last_seg = base.rstrip("/").split("/")[-1]
+        if last_seg in ACTION_SEGMENT_HINTS:
+            return None
         return base
     return None
 

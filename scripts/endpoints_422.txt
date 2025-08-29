@@ -1,0 +1,5 @@
+# Minimal payload bilan 422 berib kelgan endpointlar (METHOD PATH)
+POST /api/v1/pronunciation/sessions/
+POST /api/v1/homework/submit/{homework_id}
+POST /api/v1/homework/{homework_id}/submit
+POST /api/v1/homework/grade/{user_homework_id}

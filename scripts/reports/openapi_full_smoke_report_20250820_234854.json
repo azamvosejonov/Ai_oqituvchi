@@ -1,0 +1,22 @@
+[
+  {
+    "method": "POST",
+    "path": "/api/v1/pronunciation/sessions/",
+    "url": "http://0.0.0.0:8002/api/v1/pronunciation/sessions/",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  },
+  {
+    "method": "POST",
+    "path": "/api/v1/ai/usage/reset",
+    "url": "http://0.0.0.0:8002/api/v1/ai/usage/reset",
+    "status": "PASSED",
+    "http_status": 200,
+    "reason": "",
+    "duration_ms": null,
+    "error": ""
+  }
+]

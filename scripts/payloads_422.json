@@ -1,0 +1,29 @@
+{
+  "POST /api/v1/pronunciation/sessions/": {
+    "json": {
+      "level": "beginner",
+      "phrase_ids": []
+    }
+  },
+  "POST /api/v1/homework/{homework_id}/submit": {
+    "json": {
+      "text_answer": "ok"
+    }
+  },
+  "POST /api/v1/homework/submit/{homework_id}": {
+    "json": {
+      "text_answer": "ok"
+    }
+  },
+  "POST /api/v1/homework/grade/{user_homework_id}": {
+    "json": {
+      "feedback": "Good",
+      "score": 1
+    }
+  },
+  "POST /api/v1/ai/usage/reset": {
+    "params": {
+      "user_id": 1
+    }
+  }
+}
