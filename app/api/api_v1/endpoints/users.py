@@ -116,6 +116,12 @@ async def create_user(
             status_code=400,
             detail="The user with this email already exists in the system.",
         )
+    user_by_username = crud.user.get_by_username(db, username=user_in.username)
+    if user_by_username:
+        raise HTTPException(
+            status_code=400,
+            detail="The user with this username already exists in the system.",
+        )
     user = crud.user.create(db, obj_in=user_in)
     
     # Create a 1-day trial subscription for the new user
